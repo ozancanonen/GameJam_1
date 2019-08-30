@@ -6485,6 +6485,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf773fa6a7d668b4ba6cdce6e87a1c5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player1ConsoleController: 0
+  player2ConsoleController: 0
   pauseMenuUI: {fileID: 1863205632}
   endOfLevelMenuUI: {fileID: 1156087199}
   Player1HasWonText: {fileID: 1216951837}
@@ -23942,7 +23944,7 @@ Transform:
   m_GameObject: {fileID: 1712085114}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 8, y: 1.6, z: -1}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children:
   - {fileID: 774629505}
   - {fileID: 1804802949}
