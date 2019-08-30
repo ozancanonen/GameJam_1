@@ -73,12 +73,20 @@ public class Player : MonoBehaviour
         anim = gameObject.GetComponent<Animator>();
         sp = gameObject.GetComponent < SpriteRenderer>();
         gm = GetComponentInParent<GameManager>();
-        if (!consoleController&&gameObject.tag=="Player1")
+        if (gm.player1ConsoleController == 0 &&gameObject.tag=="Player1")
         {
-            horizontalMovementInputButtons = "Horizontal1Keyboard";
-            verticalMovementInputButtons= "Vertical1Keyboard";
+            if (gm.player1ConsoleController == 0 && gameObject.tag == "Player1")
+            {
+                horizontalMovementInputButtons = "Horizontal1Keyboard";
+                verticalMovementInputButtons = "Vertical1Keyboard";
+            }
+            else
+            {
+                horizontalMovementInputButtons = "Horizontal1Keyboard";
+                verticalMovementInputButtons = "Vertical1Keyboard";
+            }
         }
-        if (!consoleController && gameObject.tag == "Player2")
+        if (gm.player1ConsoleController == 0 && gameObject.tag == "Player2")
         {
             horizontalMovementInputButtons = "Horizontal2Keyboard";
             verticalMovementInputButtons = "Vertical2Keyboard";

@@ -25,7 +25,6 @@ public class SceneLoader : MonoBehaviour
             }
         }
     }
-
     public void LoadLevel(string SceneName)
     {
         SceneManager.LoadScene(SceneName);
