@@ -26132,11 +26132,11 @@ MonoBehaviour:
   playerLanternHearth: {fileID: 1611806562}
   lanternDurabilityBarFill: {fileID: 1659202872}
   lanternDurabilityBar: {fileID: 1618654274}
-  channelingTime: 1
+  channelingTime: 0.2
   knockback: 100
   moveSpeed: 10
   playerHealth: 100
-  lanternDurabilityMagnifier: 20
+  lanternDurabilityMagnifier: 50
   isDizzy: 0
   HealthSliderObject: {fileID: 547710839}
   lanternDurabilitySlider: {fileID: 1215113738}
